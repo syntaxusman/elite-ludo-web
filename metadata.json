@@ -1,0 +1,6 @@
+{
+  "name": "Elite Ludo",
+  "description": "A royal, minimalist coming soon landing page for the elite board game Elite Ludo featuring a pristine gold, black, and white color palette, countdown timer, and interactive waitlist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

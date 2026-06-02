@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", sans-serif;
+  --font-royal: "Cinzel", serif;
+  --color-royal-darkBg: #050505;
+  --color-royal-borderBg: #0a0a0a;
+}
+
+@utility royal-text {
+  font-family: 'Cinzel', serif;
+}
+
+@utility gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F1D382 50%, #B8860B 100%);
+}
+
+@utility gold-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #F1D382 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@utility gold-border {
+  border: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+.dice-decoration {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #D4AF37;
+  position: absolute;
+  transform: rotate(15deg);
+  opacity: 0.1;
+}
